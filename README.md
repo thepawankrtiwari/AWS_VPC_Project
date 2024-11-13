@@ -163,6 +163,20 @@ A **Load Balancer** distributes incoming traffic across multiple instances for b
 ## Project Webshot
 ![Screenshot 2024-10-26 2357222](https://github.com/user-attachments/assets/2887cf54-1c37-4b38-87c1-805c8c635461)
 
+### Mistakes what we occur during the implementation
+
+- Error during Process the making Private Instance n bastion public instance
+    - Select existing security group
+        - Chose recently created VPC
+    - Auto assign ip address : Enable
+- While connecting Bastion Host with Private instance subnet, before switching bastion host to private instance ip:
+    
+    we should give permission to private key by putting command:
+    
+    > chmod 400 *private_key_name.pem*
+    > 
+- Select only one Security group during making of load balancer(Choose your created one)
+- After successfully completing your project, you have to close instance by following process:
 
 ## Conclusion
 
