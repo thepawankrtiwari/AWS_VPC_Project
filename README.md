@@ -42,6 +42,7 @@ This README provides a complete walkthrough for creating the project. _Happy bui
    - **Number of Private Subnets:** Set to **2**.
    - **NAT Gateways:** Choose **1 per AZ** (helps maintain secure internet access for private instances).
 3. Click **Create VPC**.
+   ![Screenshot 2024-10-08 171207](https://github.com/user-attachments/assets/22ca75d5-c601-4f93-a2d7-fba6ff9fdbf0)
 
 ---
 
